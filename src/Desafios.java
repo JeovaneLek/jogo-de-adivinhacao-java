@@ -8,7 +8,7 @@ public class Desafios {
         int chute = 0;
         int tentativas = 5;
 
-        // Loop principal e incrementação das tentativas.
+        // Loop principal e decrementação das tentativas.
         while(chute != numeroCerto){
             System.out.println("Tente acertar o número aleatório de 1 a 100 em apenas 5 tentativas!:");
             chute = scan.nextInt();
